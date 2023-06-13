@@ -79,8 +79,7 @@ To configure and prepare the source code for building and running the project, f
       `npm run dev`
 8. To build the project, run 
       `npm run build`
-9. click link below to view project documentation
-       `https://documenter.getpostman.com/view/11574904/2s93sf2Wbb`
+9. click [here](https://documenter.getpostman.com/view/11574904/2s93sf2Wbb) to view project documentation`
 
 ## Issues
 
