@@ -1,0 +1,20 @@
+version: "3"
+services:
+  redis:
+    image: redis
+    container_name: "${APP_NAME}-redis-cache"
+    restart: always
+    expose:
+      - "${REDIS_PORT}"
+    ports:
+      - "${REDIS_PORT}:6379"
+    networks:
+      - intranet
+      
+networks:
+  intranet:
+    driver: bridge
+      
+ 
+
+

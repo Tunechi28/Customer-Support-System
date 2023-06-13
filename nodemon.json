@@ -1,0 +1,7 @@
+{
+    "watch": ["."],
+    "ext": "ts",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "ts-node -r dotenv/config ./src/server.ts dotenv_config_path=./.env",
+    "restartable": "rs"
+}
